@@ -16,12 +16,13 @@ nav{
   display:flex;
   justify-content: space-between;
   padding:10px 20px;
-  background-color:#007BFF;
+  background-color:#e80cc4;
 }
 nav h1,nav h2{
   cursor: pointer;
   width:10%;
   color:white;
+  width: 300px;
 }
 #bar{
   color:white;
@@ -42,7 +43,7 @@ nav h1,nav h2{
 #b1:hover{
   background-color:#d2dfed;
   border-radius: 20px;
-  color:#007BFF;
+  color:#13e18f;
  
 }
 #b2{
@@ -65,7 +66,7 @@ nav h1,nav h2{
   display:flex column;
   align-items:start;
   padding:100px;
-  background:url("https://media.istockphoto.com/id/1251447511/vector/glittering-background-material-illustration-reflecting-the-image-of-the-sea-and-water.jpg?s=2048x2048&w=is&k=20&c=9B13-eQ9RQ1MhM703xzQFF4mRba2OIA4twkf9QyF1uw=");
+  
 }
 #div1 h2{
  text-align: center;
@@ -82,15 +83,16 @@ nav h1,nav h2{
   font-size: 16px;
   background-color: transparent;
   border:none;
-  outline:solid;
+  outline:solid white;
   color:rgb(236, 230, 230);
+  margin-top: 200px;
   
 }
 #input:focus{
   background-color:#eeeeee56;
   outline: none;
-  border:solid #007BFF;
-  color:#007BFF;
+  border:solid #00060c;
+  color:#80c1dd;
 }
 #input::placeholder{
   color:#007bff9f;
@@ -107,6 +109,7 @@ nav h1,nav h2{
 h2 {
   text-align: center;
   color: #333;
+  font-size: 6rem;
 }
 #p1 {
   text-align: center;
@@ -180,7 +183,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  background:linear-gradient(#007bff00,#007bff37,#007bff6d,#007BFF,#007bffa5,#007BFF)
+  background:linear-gradient(#007bff00,#007bff37,#007bff6d,#9ac1ea,#76a5d6a5,#007BFF)
   /* border:solid; */
 }
 
@@ -265,4 +268,20 @@ body {
   align-items: center;
   margin-top: 10px;
 
+}
+.countbutton{
+  padding:0px 7px;
+  border:solid #007BFF;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #007BFF;
+  margin: 10px;
+}
+.countbutton:hover{
+  background-color:white;
+  color:#007BFF;
+}
+#count{
+  font-size: 1.3rem;
 }

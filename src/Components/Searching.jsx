@@ -14,9 +14,9 @@ export default function Searching (){
         <div id="one">
         <div id="div1">
             
-            <h2>Welcome to E-Store</h2>
+            <h2>welcome-to-shopping</h2>
             
-            <input id="input" type="text" onChange={(e)=>setSearch(e.target.value)} placeholder="Explore Now"/>
+            <input id="input" type="text" onChange={(e)=>setSearch(e.target.value)} placeholder="search-for-your-happiness"/>
            
         </div>
         <div id="cards">

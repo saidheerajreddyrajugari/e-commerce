@@ -23,9 +23,10 @@ const Productpage = () => {
         <h4>Rating: {productdata.rating.rate}</h4>
         <div id="counterdiv">
         <button id="buy">Buy Now</button>
-          <div id="cdiv2"><h4>Quantity:</h4><button onClick={()=>setCount(Count + 1)}>+</button>
-          <span> {Count} </span>
-          <button onClick={()=>setCount(Count - 1)}>-</button>
+          <div id="cdiv2"><h4>Quantity:</h4>
+          <button className="countbutton" onClick={()=>setCount(Count + 1)}>+</button>
+          <span id="count"> {Count} </span>
+          <button className="countbutton" onClick={()=>setCount(Count - 1)}>-</button>
         </div>  
         
          </div>
